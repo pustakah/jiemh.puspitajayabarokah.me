@@ -1,0 +1,82 @@
+
+/* Project 1 */
+/* Version.01 */
+
+
+/* Universal Code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+
+/* Header Area */
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    z-index: 10000;
+}
+
+.navbar-top-side{
+    background-color: #298f79;
+    padding: 20px 7%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.navbar-bottom-side .navbar{
+    background-color: #181818;
+    height: 50px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+
+/* Header IaT ( Image and Text ) */
+header img{
+    height: 100px;
+}
+
+
+header .navbar-bottom-side .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+header .navbar-top-side a{
+    color: #f4f4f4;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 0 5px;
+    transition: all ease 0.3s;
+}
+
+header .navbar-top-side a:hover{
+    color: #69e3c8;
+}
+
+header .navbar-bottom-side .navbar a{
+    color: #f4f4f4;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 0 5px;
+    transition: all ease 0.3s;
+}
+
+header .navbar-bottom-side .navbar a:hover{
+    color: #69e3c8;
+}
